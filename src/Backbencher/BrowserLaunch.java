@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class BrowserLaunch {
 	public static void main( String [] args) {
 		
@@ -13,7 +15,7 @@ public class BrowserLaunch {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\rhkee\\eclipse-workspace\\happy\\driver1\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 // launch URL
-		driver.get("http://www.greenstechnologies.in/");
+		driver.get("http://www.facebook.com/");
 // Maximize windows
 		driver.manage().window().maximize();
 		
