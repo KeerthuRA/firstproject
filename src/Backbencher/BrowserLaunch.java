@@ -13,7 +13,7 @@ public class BrowserLaunch {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\rhkee\\eclipse-workspace\\happy\\driver1\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 // launch URL
-		driver.get("http://www.greenstechnologies.in/");
+		driver.get("http://www.google.com/");
 // Maximize windows
 		driver.manage().window().maximize();
 		
